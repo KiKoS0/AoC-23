@@ -16,7 +16,7 @@ module AdventCode23
       "seven" => 7,
       "eight" => 8,
       "nine" => 9
-    }
+    }.freeze
 
     def run
       (get_digits input: @input, regex: /\d/).sum
