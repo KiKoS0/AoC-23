@@ -1,0 +1,20 @@
+{
+  "solargraph.useBundler": true,
+  "solargraph.diagnostics": true,
+  "solargraph.completion": true,
+  "solargraph.hover": true,
+  "solargraph.formatting": true,
+  "solargraph.symbols": true,
+  "solargraph.definitions": true,
+  "solargraph.rename": true,
+  "solargraph.references": true,
+  "solargraph.folding": true,
+  "[ruby][gemfile]": {
+    "editor.defaultFormatter": "castwide.solargraph"
+  },
+  "[ruby][gemfile][erb]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "errorLens.enabled": false
+}
